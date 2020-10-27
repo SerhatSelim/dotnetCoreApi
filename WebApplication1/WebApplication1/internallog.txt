@@ -1,0 +1,392 @@
+2020-10-27 13:13:07.0998 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:13:07.2905 Debug Found assembly location directory: 'C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-10-27 13:13:07.3052 Debug Search for auto loading files in location: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1
+2020-10-27 13:13:07.3211 Debug Start auto loading, location: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1
+2020-10-27 13:13:07.3295 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-10-27 13:13:07.3295 Info Loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-10-27 13:13:07.4016 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-10-27 13:13:07.4016 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:13:07.4016 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-10-27 13:13:07.4187 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-10-27 13:13:07.4187 Info Loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-10-27 13:13:07.4591 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.1.1587. Product version: 4.9.1.
+2020-10-27 13:13:07.4658 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:13:07.4658 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-10-27 13:13:07.4829 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-10-27 13:13:07.4829 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-10-27 13:13:07.4975 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-10-27 13:13:07.4975 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-10-27 13:13:07.4975 Debug Auto loading done
+2020-10-27 13:13:07.5167 Info Message Template Auto Format enabled
+2020-10-27 13:13:07.5167 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-27 13:13:07.5327 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:13:07.5516 Debug Setting 'DatabaseTarget.name' to 'database'
+2020-10-27 13:13:07.5620 Debug Setting 'DatabaseTarget.keepConnection' to 'true'
+2020-10-27 13:13:07.5620 Debug Setting 'DatabaseTarget.useTransactions' to 'true'
+2020-10-27 13:13:07.5757 Debug Setting 'DatabaseTarget.dbProvider' to 'System.Data.SqlClient'
+2020-10-27 13:13:07.5757 Debug Setting 'DatabaseTarget.connectionString' to 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'
+2020-10-27 13:13:07.5891 Debug Setting 'DatabaseTarget.commandText' to 'INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'
+2020-10-27 13:13:07.5891 Debug Setting 'DatabaseParameterInfo.name' to '@Application'
+2020-10-27 13:13:07.6110 Debug Setting 'DatabaseParameterInfo.layout' to 'WebApi'
+2020-10-27 13:13:07.6110 Debug Setting 'DatabaseParameterInfo.name' to '@Logged'
+2020-10-27 13:13:07.6252 Debug Setting 'DatabaseParameterInfo.layout' to '${date}'
+2020-10-27 13:13:07.6394 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:13:07.6394 Trace Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:13:07.6552 Debug Setting 'DatabaseParameterInfo.name' to '@Level'
+2020-10-27 13:13:07.6552 Debug Setting 'DatabaseParameterInfo.layout' to '${level}'
+2020-10-27 13:13:07.6552 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:13:07.6726 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:13:07.6726 Debug Setting 'DatabaseParameterInfo.name' to '@Message'
+2020-10-27 13:13:07.6855 Debug Setting 'DatabaseParameterInfo.layout' to '${message}'
+2020-10-27 13:13:07.6855 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:13:07.7002 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:13:07.7002 Info Adding target DatabaseTarget(Name=database)
+2020-10-27 13:13:07.7002 Debug Registered target database: NLog.Targets.DatabaseTarget
+2020-10-27 13:13:07.7182 Trace ParseRulesElement
+2020-10-27 13:13:07.7334 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-10-27 13:13:07.7334 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-10-27 13:13:07.7613 Debug Watching path 'C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2020-10-27 13:13:07.7613 Debug --- NLog configuration dump ---
+2020-10-27 13:13:07.7613 Debug Targets:
+2020-10-27 13:13:07.7782 Debug Database Target[database]
+2020-10-27 13:13:07.7782 Debug Rules:
+2020-10-27 13:13:07.7782 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ database ]
+2020-10-27 13:13:07.7964 Debug --- End of NLog configuration dump ---
+2020-10-27 13:13:07.7964 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:07.8102 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ database ]'
+2020-10-27 13:13:07.8102 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-10-27 13:13:07.8263 Trace  Scanning DatabaseTarget 'Database Target[database]'
+2020-10-27 13:13:07.8263 Trace   Scanning Property UseTransactions 'True' System
+2020-10-27 13:13:07.8263 Trace   Scanning Property ConnectionString ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'' NLog.Layouts
+2020-10-27 13:13:07.8443 Trace   Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:13:07.8443 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:07.8565 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:07.8565 Trace   Scanning Property CommandText ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'' NLog.Layouts
+2020-10-27 13:13:07.8565 Trace   Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:13:07.8729 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:07.8729 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:07.8729 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:13:07.8908 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:13:07.8908 Trace   Scanning Property DBHost ''.'' NLog.Layouts
+2020-10-27 13:13:07.9036 Trace   Scanning SimpleLayout ''.''
+2020-10-27 13:13:07.9036 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:07.9036 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:07.9225 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic
+2020-10-27 13:13:07.9225 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:07.9350 Trace    Scanning Property Layout ''WebApi'' NLog.Layouts
+2020-10-27 13:13:07.9350 Trace    Scanning SimpleLayout ''WebApi''
+2020-10-27 13:13:07.9481 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:07.9481 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:07.9481 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:07.9659 Trace    Scanning Property Layout ''${date}'' NLog.Layouts
+2020-10-27 13:13:07.9659 Trace    Scanning SimpleLayout ''${date}''
+2020-10-27 13:13:07.9659 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:07.9847 Trace     Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:13:07.9847 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:07.9969 Trace    Scanning Property Layout ''${level}'' NLog.Layouts
+2020-10-27 13:13:07.9969 Trace    Scanning SimpleLayout ''${level}''
+2020-10-27 13:13:07.9969 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.0187 Trace     Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:13:08.0187 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:08.0324 Trace    Scanning Property Layout ''${message}'' NLog.Layouts
+2020-10-27 13:13:08.0324 Trace    Scanning SimpleLayout ''${message}''
+2020-10-27 13:13:08.0459 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.0459 Trace     Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:13:08.0592 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-10-27 13:13:08.0592 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-10-27 13:13:08.0745 Info Found 20 configuration items
+2020-10-27 13:13:08.0745 Trace Initializing Layout Renderer: ${message}
+2020-10-27 13:13:08.0890 Trace Initializing '${message}'
+2020-10-27 13:13:08.0890 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.0890 Trace Scanning SimpleLayout ''${message}''
+2020-10-27 13:13:08.1104 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.1104 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:13:08.1271 Trace Initializing Layout Renderer: ${level}
+2020-10-27 13:13:08.1271 Trace Initializing '${level}'
+2020-10-27 13:13:08.1420 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.1420 Trace Scanning SimpleLayout ''${level}''
+2020-10-27 13:13:08.1558 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.1558 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:13:08.1684 Trace Initializing Layout Renderer: ${date}
+2020-10-27 13:13:08.1684 Trace Initializing '${date}'
+2020-10-27 13:13:08.1684 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.1866 Trace Scanning SimpleLayout ''${date}''
+2020-10-27 13:13:08.1866 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.1998 Trace  Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:13:08.1998 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:13:08.2159 Trace Initializing 'WebApi'
+2020-10-27 13:13:08.2159 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.2330 Trace Scanning SimpleLayout ''WebApi''
+2020-10-27 13:13:08.2330 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.2456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:08.2456 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:13:08.2456 Trace Initializing '.'
+2020-10-27 13:13:08.2674 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.2674 Trace Scanning SimpleLayout ''.''
+2020-10-27 13:13:08.2813 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.2813 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:08.2935 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:13:08.2935 Trace Initializing 'INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'
+2020-10-27 13:13:08.3077 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.3077 Trace Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:13:08.3077 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.3276 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:08.3276 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:13:08.3403 Trace Initializing 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'
+2020-10-27 13:13:08.3403 Trace FindReachableObject<System.Object>:
+2020-10-27 13:13:08.3403 Trace Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:13:08.3603 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:13:08.3603 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:13:08.3740 Trace Initializing Database Target[database]
+2020-10-27 13:13:08.3740 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-10-27 13:13:08.3887 Trace Scanning DatabaseTarget 'Database Target[database]'
+2020-10-27 13:13:08.3887 Trace  Scanning Property UseTransactions 'True' System
+2020-10-27 13:13:08.4019 Trace  Scanning Property ConnectionString ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'' NLog.Layouts
+2020-10-27 13:13:08.4019 Trace  Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:13:08.4019 Trace  Scanning Property CommandText ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'' NLog.Layouts
+2020-10-27 13:13:08.4219 Trace  Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:13:08.4219 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:13:08.4349 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:13:08.4349 Trace  Scanning Property DBHost ''.'' NLog.Layouts
+2020-10-27 13:13:08.4349 Trace  Scanning SimpleLayout ''.''
+2020-10-27 13:13:08.4542 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic
+2020-10-27 13:13:08.4542 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:08.4707 Trace   Scanning Property Layout ''WebApi'' NLog.Layouts
+2020-10-27 13:13:08.4707 Trace   Scanning SimpleLayout ''WebApi''
+2020-10-27 13:13:08.4837 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:08.4837 Trace   Scanning Property Layout ''${date}'' NLog.Layouts
+2020-10-27 13:13:08.4991 Trace   Scanning SimpleLayout ''${date}''
+2020-10-27 13:13:08.4991 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:08.5117 Trace   Scanning Property Layout ''${level}'' NLog.Layouts
+2020-10-27 13:13:08.5117 Trace   Scanning SimpleLayout ''${level}''
+2020-10-27 13:13:08.5117 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:13:08.5328 Trace   Scanning Property Layout ''${message}'' NLog.Layouts
+2020-10-27 13:13:08.5328 Trace   Scanning SimpleLayout ''${message}''
+2020-10-27 13:13:08.5466 Trace Database Target[database] has 7 layouts
+2020-10-27 13:13:08.5466 Warn DatabaseTarget(Name=database): UseTransactions property is obsolete and will not be used - will be removed in NLog 6
+2020-10-27 13:13:08.6525 Error DatabaseTarget(Name=database): Failed to create ConnectionType from DBProvider=System.Data.SqlClient Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+
+
+2020-10-27 13:13:08.6525 Error Database Target[database]: Error initializing target Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+
+
+2020-10-27 13:13:08.6705 Info Configuration initialized.
+2020-10-27 13:13:08.6705 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.8.10751. Product version: 4.6.8.
+2020-10-27 13:13:08.6883 Debug Targets for WebApplication1.ActionFilters.LogFilter by level:
+2020-10-27 13:13:08.6883 Debug Trace =>
+2020-10-27 13:13:08.7036 Debug Debug => database
+2020-10-27 13:13:08.7036 Debug Info => database
+2020-10-27 13:13:08.7161 Debug Warn => database
+2020-10-27 13:13:08.7161 Debug Error => database
+2020-10-27 13:13:08.7161 Debug Fatal => database
+2020-10-27 13:16:21.0101 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:16:21.2759 Debug Found assembly location directory: 'C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-10-27 13:16:21.2886 Debug Search for auto loading files in location: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1
+2020-10-27 13:16:21.3203 Debug Start auto loading, location: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1
+2020-10-27 13:16:21.3338 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-10-27 13:16:21.3460 Info Loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-10-27 13:16:21.4275 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-10-27 13:16:21.4392 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:16:21.4506 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-10-27 13:16:21.4506 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-10-27 13:16:21.4710 Info Loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-10-27 13:16:21.5134 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.1.1587. Product version: 4.9.1.
+2020-10-27 13:16:21.5134 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:16:21.5371 Info Auto loading assembly file: C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-10-27 13:16:21.5501 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-10-27 13:16:21.5617 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-10-27 13:16:21.5736 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-10-27 13:16:21.5736 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-10-27 13:16:21.5970 Debug Auto loading done
+2020-10-27 13:16:21.6088 Info Message Template Auto Format enabled
+2020-10-27 13:16:21.6283 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-27 13:16:21.6408 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-10-27 13:16:21.6783 Debug Setting 'DatabaseTarget.name' to 'database'
+2020-10-27 13:16:21.6973 Debug Setting 'DatabaseTarget.keepConnection' to 'true'
+2020-10-27 13:16:21.7103 Debug Setting 'DatabaseTarget.useTransactions' to 'true'
+2020-10-27 13:16:21.7248 Debug Setting 'DatabaseTarget.dbProvider' to 'System.Data.SqlClient'
+2020-10-27 13:16:21.7390 Debug Setting 'DatabaseTarget.connectionString' to 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'
+2020-10-27 13:16:21.7518 Debug Setting 'DatabaseTarget.commandText' to 'INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'
+2020-10-27 13:16:21.7685 Debug Setting 'DatabaseParameterInfo.name' to '@Application'
+2020-10-27 13:16:21.7797 Debug Setting 'DatabaseParameterInfo.layout' to 'WebApi'
+2020-10-27 13:16:21.7797 Debug Setting 'DatabaseParameterInfo.name' to '@Logged'
+2020-10-27 13:16:21.8016 Debug Setting 'DatabaseParameterInfo.layout' to '${date}'
+2020-10-27 13:16:21.8183 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:16:21.8316 Trace Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:16:21.8417 Debug Setting 'DatabaseParameterInfo.name' to '@Level'
+2020-10-27 13:16:21.8417 Debug Setting 'DatabaseParameterInfo.layout' to '${level}'
+2020-10-27 13:16:21.8649 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:16:21.8764 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:16:21.8889 Debug Setting 'DatabaseParameterInfo.name' to '@Message'
+2020-10-27 13:16:21.8889 Debug Setting 'DatabaseParameterInfo.layout' to '${message}'
+2020-10-27 13:16:21.9144 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-10-27 13:16:21.9261 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:16:21.9392 Info Adding target DatabaseTarget(Name=database)
+2020-10-27 13:16:21.9528 Debug Registered target database: NLog.Targets.DatabaseTarget
+2020-10-27 13:16:21.9683 Trace ParseRulesElement
+2020-10-27 13:16:22.0057 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-10-27 13:16:22.0249 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-10-27 13:16:22.0575 Debug Watching path 'C:\Users\serhat.selim\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2020-10-27 13:16:22.0722 Debug --- NLog configuration dump ---
+2020-10-27 13:16:22.0842 Debug Targets:
+2020-10-27 13:16:22.0944 Debug Database Target[database]
+2020-10-27 13:16:22.0944 Debug Rules:
+2020-10-27 13:16:22.1150 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ database ]
+2020-10-27 13:16:22.1241 Debug --- End of NLog configuration dump ---
+2020-10-27 13:16:22.1371 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.1371 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ database ]'
+2020-10-27 13:16:22.1591 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-10-27 13:16:22.1691 Trace  Scanning DatabaseTarget 'Database Target[database]'
+2020-10-27 13:16:22.1691 Trace   Scanning Property UseTransactions 'True' System
+2020-10-27 13:16:22.1914 Trace   Scanning Property ConnectionString ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'' NLog.Layouts
+2020-10-27 13:16:22.2049 Trace   Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:16:22.2293 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.2419 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.2549 Trace   Scanning Property CommandText ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'' NLog.Layouts
+2020-10-27 13:16:22.2674 Trace   Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:16:22.2796 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.2796 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.3040 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:16:22.3178 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:16:22.3320 Trace   Scanning Property DBHost ''.'' NLog.Layouts
+2020-10-27 13:16:22.3437 Trace   Scanning SimpleLayout ''.''
+2020-10-27 13:16:22.3560 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.3560 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.3808 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic
+2020-10-27 13:16:22.3912 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:22.4012 Trace    Scanning Property Layout ''WebApi'' NLog.Layouts
+2020-10-27 13:16:22.4012 Trace    Scanning SimpleLayout ''WebApi''
+2020-10-27 13:16:22.4220 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.4345 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.4345 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:22.4532 Trace    Scanning Property Layout ''${date}'' NLog.Layouts
+2020-10-27 13:16:22.4640 Trace    Scanning SimpleLayout ''${date}''
+2020-10-27 13:16:22.4640 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.4829 Trace     Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:16:22.4829 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:22.5018 Trace    Scanning Property Layout ''${level}'' NLog.Layouts
+2020-10-27 13:16:22.5108 Trace    Scanning SimpleLayout ''${level}''
+2020-10-27 13:16:22.5108 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.5291 Trace     Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:16:22.5291 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:22.5468 Trace    Scanning Property Layout ''${message}'' NLog.Layouts
+2020-10-27 13:16:22.5468 Trace    Scanning SimpleLayout ''${message}''
+2020-10-27 13:16:22.5649 Trace     Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.5734 Trace     Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:16:22.5734 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-10-27 13:16:22.5927 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-10-27 13:16:22.5927 Info Found 20 configuration items
+2020-10-27 13:16:22.6173 Trace Initializing Layout Renderer: ${message}
+2020-10-27 13:16:22.6300 Trace Initializing '${message}'
+2020-10-27 13:16:22.6427 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.6548 Trace Scanning SimpleLayout ''${message}''
+2020-10-27 13:16:22.6672 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.6672 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-10-27 13:16:22.6922 Trace Initializing Layout Renderer: ${level}
+2020-10-27 13:16:22.7035 Trace Initializing '${level}'
+2020-10-27 13:16:22.7156 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.7156 Trace Scanning SimpleLayout ''${level}''
+2020-10-27 13:16:22.7405 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.7510 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-10-27 13:16:22.7510 Trace Initializing Layout Renderer: ${date}
+2020-10-27 13:16:22.7687 Trace Initializing '${date}'
+2020-10-27 13:16:22.7778 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.7778 Trace Scanning SimpleLayout ''${date}''
+2020-10-27 13:16:22.7963 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.7963 Trace  Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2020-10-27 13:16:22.8139 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:16:22.8232 Trace Initializing 'WebApi'
+2020-10-27 13:16:22.8232 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.8465 Trace Scanning SimpleLayout ''WebApi''
+2020-10-27 13:16:22.8572 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.8572 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.8788 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:16:22.8888 Trace Initializing '.'
+2020-10-27 13:16:22.8888 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.9099 Trace Scanning SimpleLayout ''.''
+2020-10-27 13:16:22.9220 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.9220 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:22.9438 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:16:22.9556 Trace Initializing 'INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'
+2020-10-27 13:16:22.9667 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:22.9811 Trace Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:16:22.9957 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:22.9957 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:23.0202 Trace Initializing Layout Renderer: ${literal}
+2020-10-27 13:16:23.0318 Trace Initializing 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'
+2020-10-27 13:16:23.0318 Trace FindReachableObject<System.Object>:
+2020-10-27 13:16:23.0528 Trace Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:16:23.0618 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-10-27 13:16:23.0738 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-10-27 13:16:23.0738 Trace Initializing Database Target[database]
+2020-10-27 13:16:23.0974 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-10-27 13:16:23.1066 Trace Scanning DatabaseTarget 'Database Target[database]'
+2020-10-27 13:16:23.1066 Trace  Scanning Property UseTransactions 'True' System
+2020-10-27 13:16:23.1244 Trace  Scanning Property ConnectionString ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False'' NLog.Layouts
+2020-10-27 13:16:23.1244 Trace  Scanning SimpleLayout ''Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False''
+2020-10-27 13:16:23.1423 Trace  Scanning Property CommandText ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)'' NLog.Layouts
+2020-10-27 13:16:23.1512 Trace  Scanning SimpleLayout ''INSERT INTO  demo.dbo.Logs(Application, Logged, Level, Message)                          VALUES (@Application, @Logged, @Level, @Message)''
+2020-10-27 13:16:23.1512 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:16:23.1712 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic
+2020-10-27 13:16:23.1712 Trace  Scanning Property DBHost ''.'' NLog.Layouts
+2020-10-27 13:16:23.1919 Trace  Scanning SimpleLayout ''.''
+2020-10-27 13:16:23.2029 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic
+2020-10-27 13:16:23.2140 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:23.2140 Trace   Scanning Property Layout ''WebApi'' NLog.Layouts
+2020-10-27 13:16:23.2368 Trace   Scanning SimpleLayout ''WebApi''
+2020-10-27 13:16:23.2477 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:23.2477 Trace   Scanning Property Layout ''${date}'' NLog.Layouts
+2020-10-27 13:16:23.2711 Trace   Scanning SimpleLayout ''${date}''
+2020-10-27 13:16:23.2825 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:23.2941 Trace   Scanning Property Layout ''${level}'' NLog.Layouts
+2020-10-27 13:16:23.2941 Trace   Scanning SimpleLayout ''${level}''
+2020-10-27 13:16:23.3183 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2020-10-27 13:16:23.3276 Trace   Scanning Property Layout ''${message}'' NLog.Layouts
+2020-10-27 13:16:23.3276 Trace   Scanning SimpleLayout ''${message}''
+2020-10-27 13:16:23.3486 Trace Database Target[database] has 7 layouts
+2020-10-27 13:16:23.3594 Warn DatabaseTarget(Name=database): UseTransactions property is obsolete and will not be used - will be removed in NLog 6
+2020-10-27 13:16:23.4866 Error DatabaseTarget(Name=database): Failed to create ConnectionType from DBProvider=System.Data.SqlClient Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+
+
+2020-10-27 13:16:23.4974 Error Database Target[database]: Error initializing target Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+
+
+2020-10-27 13:16:23.4974 Info Configuration initialized.
+2020-10-27 13:16:23.5194 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.8.10751. Product version: 4.6.8.
+2020-10-27 13:16:23.5335 Debug Targets for WebApplication1.ActionFilters.LogFilter by level:
+2020-10-27 13:16:23.5423 Debug Trace =>
+2020-10-27 13:16:23.5423 Debug Debug => database
+2020-10-27 13:16:23.5599 Debug Info => database
+2020-10-27 13:16:23.5599 Debug Warn => database
+2020-10-27 13:16:23.5782 Debug Error => database
+2020-10-27 13:16:23.5782 Debug Fatal => database
