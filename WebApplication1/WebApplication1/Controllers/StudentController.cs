@@ -1,6 +1,7 @@
 ﻿using Business.Behavior;
 using Business.RestHelper;
 using Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.ActionFilters;
 
@@ -21,9 +22,10 @@ namespace WebApplication1.Controllers
 
         [HttpPost]
         [Route("CreateStudent")]
-        public ServiceResult<bool> CreateStudent (StudentDto dto)
+        [Validation]
+        [Authorize]
+        public ServiceResult<bool> CreateStudent(StudentDto dto)
         {
-
             return this.studentBusiness.CreateStudent(dto);
         }
 
